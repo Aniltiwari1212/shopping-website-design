@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    }
+    nav{
+        flex:1;
+        text-align: right;
+    }
+    nav ul{
+        display: inline-block;
+        list-style-type: none;
+       }
+       nav ul li{
+        display: inline-block;
+        margin: 20px;
+       }
+       a{
+        text-decoration: none;
+        color: black;
+       }
+       nav ul li a:hover{
+        background-color:blue ;
+        color:white;
+       }
+       p{
+        color: black;
+       }
+       .container{
+        max-width: 1500px;
+        margin: auto;
+        padding-left: 50px;
+        padding-right: 50px;
+       }
+
+       .row{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+       }
+       .col-2{
+        flex-basis: 50%;
+        min-width: 300px;
+       }
+       .col-2 img{
+        max-width: 100%;
+    padding: 50px 0px;   
+    }
+    .col-2 h1{
+        font-size:50px ;
+        line-height: 60px;
+        margin: 25px 0px;
+    }
+    .btn{
+        display: inline-block;
+        color: blanchedalmond;
+        background-color: black;
+        padding: 10px 30px;
+        margin: 30px 0px;
+        border-radius: 30px;
+        transition: background 0.5s;
+    }
+    .btn:hover{
+background:red;
+    }
+    .header{
+        background:radial-gradient(pink , white);
+    }
+  
+    /* --------------------------------features------------------------------------------- */
+    .categories{
+        margin: 70px 0px;
+    }
+    .col-3{
+        flex-basis: 30%;
+        min-width: 250px;
+        margin-bottom: 30px;
+        transition: transform 0.5s;
+    }
+    .col-3 img{
+        width: 100%;
+    }
+    .col-3:hover{
+        transform:translatey(-30px);
+    }
+.small-container{
+    background: radial-gradient(pink, skyblue);
+}
+    /* ---------------------featured product---------------------------------- */
+    .col-4{
+        flex-basis: 25%;
+        padding: 10px;
+        min-width: 200px;
+        margin-bottom: 50px;
+        transition: transform 0.5s;
+        
+        
+    }
+    .col-4 img{
+        width: 100%;
+    }
+    .title{
+        text-align: center;
+        line-height: 20px;
+        position: relative;
+        margin: auto 0 50px;
+    }
+    .col-4:hover{
+        transform:translatey(-30px);
+    }
+
+
+    .offer{
+        background: radial-gradient(pink, white);
+        margin-top: 50px;
+        padding: 30px 0px;
+    }
+    .col-2 .offer-img{
+        
+        padding:100px ;
+    }
+
+    /* ---------------testimonials---------------- */
+    .testimonials{
+        padding-top: 100px;
+    }
+    .testimonials .col-3{
+        text-align: center;
+        padding: 50px 20px;
+        box-shadow: 0 0 20px 0;
+        cursor: pointer;
+    }
+    .testimonials .col-3 img{
+        width: 75px;
+        border-radius: 50%;
+        margin-top: 25px;
+    }
+    .testimonials .col-3:hover{
+        transform:translateY(-10px);
+    }
+
+    /* --------------brands----------------- */
+    .brands{
+        margin: 100px auto;
+}
+.col-5{
+    width: 200px;
+}
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+}
+
+/* ----------------footer---------------- */
+.footer{
+    background: black;
+    color: aliceblue;
+    font-size: 16px;
+    padding: 50px ;
+}
+.footer h3{
+    color: red;
+    margin-bottom: 15px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+    flex-basis: 20%;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 150px;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo img{
+width: 150px;
+}
+.app-logo{
+    margin-top: 0px;
+}
